@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/binson/Downloads/mailer.29.10.2017'
+let g:netrw_dirhist_2='/home/binson/Downloads/mailer.24.10.2017'
+let g:netrw_dirhist_3='/home/binson/Downloads/mailer.29.10.2017'
