@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/binson/.vim'
-let g:netrw_dirhist_2='/home/binson'
-let g:netrw_dirhist_3='/home'
-let g:netrw_dirhist_4='/home/binson'
-let g:netrw_dirhist_5='/home/binson/.vim'
-let g:netrw_dirhist_6='/home/binson'
+let g:netrw_dirhist_1='/home/binson/Downloads/mailer.29.10.2017'
+let g:netrw_dirhist_2='/home/binson/Downloads/mailer.24.10.2017'
+let g:netrw_dirhist_3='/home/binson/Downloads/mailer.29.10.2017'
+let g:netrw_dirhist_4='/home/binson/.vim/bundle/indentLine'
+let g:netrw_dirhist_5='/home/binson/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_6='/home/binson/.vim/bundle/Vundle.vim/syntax'

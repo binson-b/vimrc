@@ -14,9 +14,10 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
-:Wq
 :q
+:wq
+:head
+:Wq
 :colorscheme default
 :q!
 :!
@@ -60,35 +61,46 @@ $
 ""0	CHAR	0
 	 "
 "1	LINE	0
-	Plugin 'jnurmine/Zenburn' " theme
+	>>>>>>> 2cec2415407af32441b635a33a16d229c4bd51e7
 "2	LINE	0
-	autocmd BufRead,BufNewFile * syn match parens /[(){}]/ | hi parens ctermfg=red
+		"	95	67
 "3	LINE	0
-	pass
+	> /usr/share/vim/vim74/doc/vi_diff.txt
 "4	LINE	0
-	syntax on
+	
 "5	LINE	0
-	let python_highlight_all=1
+		+	1	0
 "6	LINE	0
-	syntax on
+		.	1	0
 "7	LINE	0
-	let python_highlight_all=1
+		"	1	0
+"8	LINE	0
+	> ~/Downloads/mailer.29.10.2017/mail_error.log
+"9	LINE	0
+	
 "-	CHAR	0
 	 "
 
 # File marks:
-'0  28  0  ~/exercise_10.txt
-'1  26  12  ~/exercise_10.txt
-'2  378  1  ~/.viminfo
-'3  28  14  ~/.vimrc
-'4  1  13  ~/workspace/bulk_mail/server_email.py
-'5  7  0  ~/a.py
-'6  26  2  ~/.vimrc
-'7  1  0  ~/a.py
-'8  31  1  ~/.vimrc
-'9  16  0  ~/a.py
+'0  32  0  ~/.vimrc
+'1  1  0  ~/.vim/bundle/Vundle.vim/syntax/vundlelog.vim
+'2  10  0  ~/.vim/bundle/indentLine
+'3  1  0  ~/.viminfo
+'4  369  1  ~/.viminfo
+'5  28  0  ~/exercise_10.txt
+'6  26  12  ~/exercise_10.txt
+'7  378  1  ~/.viminfo
+'8  28  14  ~/.vimrc
+'9  1  13  ~/workspace/bulk_mail/server_email.py
 
 # Jumplist (newest first):
+-'  32  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  1  0  ~/.vim/bundle/Vundle.vim/syntax/vundlelog.vim
+-'  14  0  ~/.vim/bundle/Vundle.vim
+-'  10  0  ~/.vim/bundle/indentLine
+-'  1  0  ~/.viminfo
+-'  369  1  ~/.viminfo
 -'  28  0  ~/exercise_10.txt
 -'  1  0  ~/exercise_10.txt
 -'  26  12  ~/exercise_10.txt
@@ -98,14 +110,12 @@ $
 -'  1  0  /home
 -'  9  0  ~/.vim
 -'  28  14  ~/.vimrc
--'  1  0  ~/.vimrc
 -'  1  13  ~/workspace/bulk_mail/server_email.py
 -'  7  0  ~/a.py
 -'  1  0  ~/a.py
 -'  26  2  ~/.vimrc
 -'  31  1  ~/.vimrc
 -'  16  0  ~/a.py
--'  32  21  ~/.vimrc
 -'  10  0  ~/workspace/bulk_mail/a.py
 -'  1  0  ~/workspace/bulk_mail/a.py
 -'  1  0  ~/workspace/Certificate-Generator/certificate-generator/requirements.txt
@@ -181,14 +191,49 @@ $
 -'  1  0  ~/workspace/bulk_mail/a.py
 -'  1  0  ~/workspace/Certificate-Generator/certificate-generator/requirements.txt
 -'  8  0  ~/workspace/Certificate-Generator/certificate-generator/requirements.txt
--'  2  0  ~/workspace/Certificate-Generator/certificate-generator/requirements.txt
--'  232  0  ~/workspace/bulk_mail/server_email.py
--'  2  0  ~/workspace/bulk_mail/server_email.py
--'  28  14  ~/.vimrc
--'  378  1  ~/.viminfo
--'  1  0  ~/
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	"	32	0
+	^	28	15
+	.	28	14
+	+	27	9
+	+	13	36
+	+	14	24
+	+	15	22
+	+	33	0
+	+	17	0
+	+	28	14
+	+	13	60
+	+	14	40
+	+	15	38
+	+	16	32
+	+	30	9
+	+	16	41
+	+	33	0
+	+	33	0
+	+	27	14
+	+	14	49
+	+	29	25
+	+	32	78
+	+	32	78
+	+	31	1
+	+	32	0
+	+	27	28
+	+	28	36
+	+	16	0
+	+	28	14
+
+> ~/.vim/bundle/Vundle.vim/syntax/vundlelog.vim
+	"	1	0
+
+> ~/.viminfo
+	"	1	0
+	.	434	0
+	+	13	0
+	+	54	0
+	+	434	0
 
 > ~/exercise_10.txt
 	"	28	0
@@ -222,40 +267,6 @@ $
 	+	16	2
 	+	17	104
 	+	26	13
-
-> ~/.viminfo
-	"	378	1
-
-> ~/.vimrc
-	"	28	14
-	^	28	15
-	.	28	14
-	+	27	9
-	+	13	36
-	+	14	24
-	+	15	22
-	+	33	0
-	+	17	0
-	+	28	14
-	+	13	60
-	+	14	40
-	+	15	38
-	+	16	32
-	+	30	9
-	+	16	41
-	+	33	0
-	+	33	0
-	+	27	14
-	+	14	49
-	+	29	25
-	+	32	78
-	+	32	78
-	+	31	1
-	+	32	0
-	+	27	28
-	+	28	36
-	+	16	0
-	+	28	14
 
 > ~/workspace/bulk_mail/server_email.py
 	"	1	13
